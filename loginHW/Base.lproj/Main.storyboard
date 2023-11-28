@@ -118,7 +118,7 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Log Out"/>
                                 <connections>
-                                    <action selector="logOutButtonAction" destination="7kd-w1-keR" eventType="touchUpInside" id="fPR-hb-8Ei"/>
+                                    <segue destination="kQO-ge-XaW" kind="unwind" unwindAction="unwindFor:" id="cWA-Ga-yAb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -140,8 +140,9 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YTW-bl-KwV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="kQO-ge-XaW" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="849.61832061068696" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="848.79999999999995" y="-2.2488755622188905"/>
         </scene>
     </scenes>
     <resources>

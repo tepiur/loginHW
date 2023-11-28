@@ -18,7 +18,4 @@ final class WelcomeViewController: UIViewController {
         userLabel.text = ("Welcome, \(user)")
     }
     
-    @IBAction func logOutButtonAction() {
-        dismiss(animated: true)
-    }
 }
